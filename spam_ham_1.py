@@ -54,9 +54,7 @@ def pred(msg):
     prediction = svm.predict(msg)
     return prediction[0]
 
-trial="""Daily Deals showcase our biggest discounts, and we launch over a dozen each week.
- 
-Want to be sure you see them all? Manage you preferences via the link below to make sure you get access to all of our best deals on t-shirts, vinyl and more."""
+trial="""text"""
 
 trial=review_messages(trial)
 
